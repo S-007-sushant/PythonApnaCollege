@@ -189,4 +189,5 @@ print(a>=b)
 # example : 
 # git remote add PythonApnaCollege  https://github.com/S-007-sushant/PythonApnaCollege
 #under stand
+# Learned to add into the github remotely.
 
