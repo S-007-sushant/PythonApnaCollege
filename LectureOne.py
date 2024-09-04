@@ -183,5 +183,10 @@ a = int(input("first number: "))
 b = int(input("second number: "))
 print(a>=b)
 
+# git remote add <name> <url>
+# git push <name>
 
+# example : 
+# git remote add PythonApnaCollege  https://github.com/S-007-sushant/PythonApnaCollege
+#under stand
 
