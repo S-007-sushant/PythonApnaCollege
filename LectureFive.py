@@ -94,13 +94,88 @@ for el in list:
 
 # print the elements of the following list using a loop:
 #[1,4,9,16,25,36,49,64,81,100]
-list = [1,4,9,16,25,36,49,64,81,100]
-for i in list:
-    print(i)
-idx = 0
-num = 36
-for i in list:
-    if(num == i):
-        print("at index: ",idx)
-        break
-    idx+=1
+# list = [1,4,9,16,25,36,49,64,81,100]
+# for i in list:
+#     print(i)
+# idx = 0
+# num = 36
+# for i in list:
+#     if(num == i):
+#         print("at index: ",idx)
+#         break
+#     idx+=1
+
+# Range
+# range() : Range functions return a sequence of numbers, starting from 0
+# by default, and increments by 1 (by default), and stops before a specified number.
+# range(start?,stop,step?)
+# for el in range(5):
+#   print(el)
+# for el in range(1,5):
+#   print(el)
+# for el in range(1,5,2):
+#   print(el) 
+
+# print(range(5))
+# seq = range(5)
+# for i in seq:
+#     print(i)
+
+# for i in range(10): #range(stop)
+#     print(i)
+
+# for i in range(2,10): #range(start, stop)
+#     print(i)
+
+# for i in range(2,10,2): #range(start,stop,step)
+#     print(i)
+
+#print numbers from 1 to 100 
+# for i in range(1,101):
+#     print(i)
+
+#print numbers from 100 to 1
+# for i in range(100,0,-1):
+#     print(i)
+
+# print the multiplication table of a number n
+# number = int(input("Enter a number for multiplication: "))
+# for i in range(1,11):
+#     print(number*i)
+
+# Pass statement
+# pass is a null statement that does nothing. It is used as a placeholder for futer code
+# for el in range(10):
+#     pass
+
+# write a program to find the sum of first n numbers 
+#BY USING FOR LOOP
+# number = int(input("Enter the first n number: "))
+# sum = 0
+# for i in range(number+1):
+#     sum = sum+i
+# print("total sum : ",sum)
+# BY USING WHILE LOOP
+# number = int(input("Enter the first n number: "))
+# sum = 0
+# i = 0
+# while(i<=number):
+#     sum = sum+i
+#     i+=1
+# print("total sum",sum)
+
+# write a program to find the factorial of first n numbers (using for)
+# BY USING FOR LOOP
+# number = int(input("Enter the first n number: "))
+# fact = 1
+# for i in range(1,number+1):
+#     fact = fact * i
+# print("Factorial of ",number," is : ",fact)
+# BY USING WHILE LOOP
+# number = 3
+# fact = 1
+# i = 1
+# while i<=number:
+#     fact*=i
+#     i+=1
+# print("factorial :",fact)
