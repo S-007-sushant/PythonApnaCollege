@@ -20,11 +20,26 @@ Objects - The objects is an entity that has a state and behavior associated with
 # s2 = Student()
 # print(s1.name)
 
-class Car:
-    color = "blue"
-    brand = "mercedes"
+# class Car:
+#     color = "blue"
+#     brand = "mercedes"
 
-car1 = Car()
-print(car1.color)
-print(car1.brand )
-     
+# car1 = Car()
+# print(car1.color)
+# print(car1.brand )
+
+"""
+__int__ function 
+Constructor : All classes have a function called __init__(), which is always executed
+when the class is being initiated.
+
+
+"""
+class Student:
+    name="Sushant"
+    def __init__(self, fullname):
+        self.name = fullname
+        print("adding new student in Database...")
+
+s1 = Student("Karan")
+print(s1.name)
