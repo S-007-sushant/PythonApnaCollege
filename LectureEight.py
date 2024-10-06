@@ -33,13 +33,56 @@ __int__ function
 Constructor : All classes have a function called __init__(), which is always executed
 when the class is being initiated.
 
+default constructors
+def __init__(self):
+    pass
+
+
 
 """
-class Student:
-    name="Sushant"
-    def __init__(self, fullname):
-        self.name = fullname
-        print("adding new student in Database...")
+# class Student:
+#     # name="Sushant"
 
-s1 = Student("Karan")
-print(s1.name)
+#     # default constructors
+#     def __init__(self):
+#         pass
+
+#     # parameterized constructors
+#     # def __init__(self, fullname):
+#     def __init__(self,name,marks):
+#         self.name = name
+#         self.marks = marks
+#         print("adding new student in Database...")
+
+# s1 = Student("Karan",90)
+# print(s1.name, s1.marks)
+# s2 = Student("Arjun", 89)
+# print(s2.name, s2.marks)
+
+"""
+The self parameter is a referrence to the current instance of the class, and is used to
+accuess variables that belong to the class.
+ 
+"""
+
+"""
+Class and Instance Attributes
+
+class attributes - common for all objects
+
+precedance :
+
+obj attr > class attr
+
+"""
+
+class Student:
+    college_name = "BIT Mesra"
+    name = "anonymous" #class attribute
+
+    def __init__(self, name, marks):
+        self.name = name #obj attr > class attr
+        self.marks = marks
+        print("adding new student in database...")
+
+s1 = Student("Sushant", 98)
