@@ -127,18 +127,20 @@ generally has a functions we can use.
 
 # result = checkWordline("pyq")
 # print(result)
-
+print("Hello sir")
 #4. From a file containg number separated by comma, print the count of even numbers
 # 1, 2, 76, 84, 90, 101
-count = 0
-with open("practice.txt","r") as f:
-    data = f.read()
-    print(data)
+# count = 0
+# with open("practice.txt","r") as f:
+#     data = f.read()
+#     print(data)
     
-    num = data.split(",")
-    print(num)
-    for i in num:
-        if(int(i) % 2 == 0):
-            count+=1
+#     num = data.split(",")
+#     print(num)
+#     for i in num:
+#         if(int(i) % 2 == 0):
+#             count+=1
         
-print(count)
+# print(count)
+print("Hello Sushant")
+print("Hello World, I am learning ")
